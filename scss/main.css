@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.cointener {
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  background-color: #E5E7EB;
+}
+.cointener__head {
+  background-color: white;
+}
+.cointener__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 192px;
+}
+.cointener__logtext {
+  display: flex;
+}
+.cointener__text {
+  font-weight: 900;
+  font-family: "Roboto";
+}
+.cointener__text-2 {
+  padding: 0 12px 0 0;
+}
+.cointener__textnum {
+  display: flex;
+}
+.cointener__phone-num {
+  padding: 0 0 0 12px;
+}
+.cointener__text-2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: end;
+}
+.cointener__number {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+.cointener__strong {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300px;
+  line-height: 32px;
+}
+.cointener__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 192px;
+}
+.cointener__lists ul {
+  display: flex;
+  list-style-type: none;
+}
+.cointener__lists ul:first-child {
+  padding: 0;
+}
+.cointener__lists li {
+  padding: 0 24px 0 0;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "Roboto";
+}
+.cointener__lists li:last-child {
+  padding: 0;
+}
+.cointener__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--purple-500, #8B5CF6);
+}
+.cointener__guarantees {
+  color: var(--purple-500, #8B5CF6);
+  cursor: pointer;
+}
+.cointener__push_button {
+  background: var(--purple-500, #8B5CF6);
+  border-radius: 4px;
+  padding: 10px 28px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.cointener__main {
+  padding: 24px 192px 0;
+}
+.cointener__two_blocks {
+  display: flex;
+  max-width: 756px;
+  height: auto 120px;
+  gap: 24px;
+  padding: 0 0 72px 0;
+}
+.cointener__delivery {
+  padding: 0 0 12px 0;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+  color: var(--gray-900, #111827);
+}
+.cointener__products {
+  padding: 0 0 16px 0;
+  font-size: 20px;
+}
+.cointener__text_calculator {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  padding: 0 0 16px 0;
+}
+.cointener__text_transportation {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.cointener__elements_fields {
+  display: flex;
+  width: 756px;
+  padding: 24px 27px;
+  background: white;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 16px;
+}
+.cointener__block_fields {
+  padding: 0 0 24px 0;
+}
+.cointener__input-name {
+  border: 2px solid black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px;
+  width: 472px;
+  border-radius: 4px;
+}
+.cointener__block_fields-2 {
+  display: flex;
+  gap: 24px;
+  padding: 0 0 24px 0;
+}
+.cointener__input-mail {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener__input-phone {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener__block_fields-3 {
+  display: flex;
+  gap: 24px;
+  padding: 0 0 24px 0;
+}
+.cointener__input-square {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener__input-square {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener__block_fields-4 {
+  display: flex;
+  gap: 24px;
+  padding: 0 0 24px 0;
+}
+.cointener__input-country {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener__input-sity {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener__block_fields-5 {
+  display: flex;
+  gap: 24px;
+  padding: 0 0 24px 0;
+}
+.cointener__input-area {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener__input-delivery {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener .button-two {
+  display: flex;
+  width: 496px;
+  padding: 10px 28px;
+  justify-content: center;
+  gap: 4px;
+}
+.cointener .button-two:hover {
+  background: #593d9b;
+}
+.cointener .button-two:active {
+  background: #8866d7;
+}
+.cointener__benefits {
+  padding: 0 0 72px 0;
+}
+.cointener__advantages {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  padding: 0 0 24px 0;
+  text-align: center;
+}
+.cointener__blocks_six {
+  display: grid;
+  grid-template-columns: 496px 496px 496px;
+  gap: 24px;
+}
+.cointener__box_num {
+  display: flex;
+  width: 496px;
+  padding: 24px;
+  align-items: center;
+  gap: 12px;
+}
+.cointener__title_text-num {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  padding: 0 0 12px 0;
+  width: 300px;
+}
+.cointener__text_title {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 250px;
+}
+.cointener__garanty {
+  padding: 0 0 72px 0;
+}
+.cointener__text-samples {
+  padding: 0 0 36px 0;
+}
+.cointener__garanty_title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  padding: 0 0 12px 0;
+  text-align: center;
+}
+.cointener__garanty_text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 0 24px 0;
+  text-align: center;
+}
+.cointener__img-titles {
+  display: flex;
+  gap: 0 24px;
+}
+.cointener__title {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+}
+.cointener__button_center {
+  text-align: center;
+}
+.cointener__square_button {
+  background: #8866d7;
+  padding: 16px 28px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 800;
+}
+.cointener__reviews {
+  display: flex;
+  width: 1536px;
+  padding: 0px 23px;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  padding: 0 0 72px 0;
+}
+.cointener__block_reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+}
+.cointener__title_reviews {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+}
+.cointener__block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+.cointener__names-blocks {
+  display: flex;
+  width: 626px;
+  padding: 32px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--Gray-50, #F9FAFB);
+  position: relative;
+}
+.cointener__texts {
+  width: 540px;
+  flex: 1 0 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.cointener__names {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  color: var(--Gray-500, #6B7280);
+  width: 540px;
+}
+.cointener__icons {
+  position: absolute;
+  right: 18px;
+  bottom: 8px;
+}
+.cointener__questions {
+  padding: 64px;
+  text-align: center;
+  background-color: white;
+  border-radius: 16px;
+}
+.cointener__questions_title {
+  padding: 0 0 32px 0;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+}
+.cointener__questions_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cointener__questions_fields {
+  display: grid;
+  grid-template-columns: 237px 237px;
+  gap: 24px;
+}
+.cointener__questions_input {
+  width: 211px;
+  padding: 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+.cointener__questions_textarea {
+  margin: 0 0 20px 0;
+  width: 497px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.cointener-button {
+  width: 497px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.cointener__footer {
+  padding: 40px 192px;
+  background: var(--Gray-900, #111827);
+}
+.cointener__footer_logo_list_number {
+  display: flex;
+  justify-content: space-between;
+  color: var(--Gray-50, #F9FAFB);
+}
+.cointener__footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 0 8px 0;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-family: "Roboto";
+}
+.cointener__footer_list ul {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Roboto";
+}
+.cointener__footer_block_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+}
+.cointener__footer_txst {
+  color: var(--Gray-600, #4B5563);
+  width: 1146px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+}
+.cointener__text_icon {
+  display: flex;
+  gap: 4px;
+}
+.cointener__footer_text_link {
+  color: var(--Gray-500, #6B7280);
+  text-align: right;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.cointener__footer_link {
+  color: var(--Gray-500, #6B7280);
+}/*# sourceMappingURL=main.css.map */
